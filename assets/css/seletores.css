@@ -1,0 +1,33 @@
+/* 
+** Tipos de Seletores **
+
+seletor universal - *  
+    estiliza todas as tags do documento html
+seletor de tag - nomeTag
+    estiliza todas as tags com aquele nome
+seletor  de classe - .nomeClasse
+    estiliza todas as tags que carregam aquela classe
+seletor de ID - #id
+    estiliza a tag que possui o ID
+
+*/
+
+*{
+    background-color: blue;
+    color: beige;
+    margin: 0;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 5px;
+}
+.paragrafe{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color: red;
+}
+#botaoFinal{
+    padding: 5px;
+    border: 1px solid salmon ;
+}

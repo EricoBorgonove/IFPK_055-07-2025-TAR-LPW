@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: rgba(255, 255, 0, 0.1);
+}
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fraseDoH1{
+    text-align: center;
+    margin: 0;
+    font-size: 0.8rem;
+}
+.container{
+    margin-left: 25px;
+}
+.img-card{
+    width: 15rem;
+    border-radius: 7px;
+}
+.card{
+    border: 1px solid lightgray;
+    padding: 7px;
+    width: 15rem;
+    border-radius: 7px;
+    text-align: center;
+}
+.text-card{
+    margin: 0;
+    font-size: 0.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.button-card{
+    padding: 4px 15px;
+    margin-top: 5px;
+    border: 0;
+    background-color: rgb(183, 16, 16);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+}
+.button-card:hover{
+    color: rgb(183, 16, 16);
+    border: 1px solid rgb(183, 16, 16);
+    background-color: transparent;
+    cursor: pointer;
+    /* scale: 1.2; */
+}
+
