@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/faleConosco.css">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <div class="container">
+    <h1 id="titulo-form">Fale Conosco</h1>
+    <form aria-labelledby="titulo-form">
+        <div>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input id="name" type="text" placeholder="Digite o seu nome">
+                    <label for="cpf">CPF: </label>
+                    <input type="text" name="" id="cpf" placeholder="000.000.000-00">
+                </div>
+                <div>
+                    <label for="genero">Gênero: </label>
+                    <input type="radio" name="genero" id=""> Masculino
+                    <input type="radio" name="genero" id=""> Feminino
+                    <input type="radio" name="genero" id=""> Outros
+                    <input type="text" id="outros" disabled>
+                </div>
+                <div>
+                    <label for="nacionalidade">Nacionalidade: </label>
+                    <select name="" id="nacionalidade">
+                            <option value="" selected></option>
+                            <option value="">Brasil</option>
+                            <option value="">Venezuela</option>
+                            <option value="">India</option>
+                            <option value="">Ucrania</option>
+                    </select>
+                    <label for="naturalidade" hidden>Naturalidade: </label>
+                    <select name="naturalidade" id="" hidden>
+                            <option value="">Amazonas</option>
+                            <option value="">Pará</option>
+                            <option value="">Santa Catarina</option>
+                            <option value="" selected></option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Dados de Usuário</legend>
+                <div>
+                    <label for="user">Usuário: </label>
+                    <input type="text" name="user" placeholder="Digite o nome de usuário">
+                </div>
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="senha" id="" placeholder="Digite a sua senha">
+                    <input type="password" name="senha" id="" placeholder="Confirme a sua senha">
+                    <button>Ver</button>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Preferências</legend>
+                <label for="musicas">Musicas:</label>
+                <input type="checkbox" name="musicas" id="" checked> Rock
+                <input type="checkbox" name="musicas" id=""> MPB
+                <input type="checkbox" name="musicas" id="" disabled> Funk
+            </fieldset>
+        </div>
+
+    </form>
+    </div>
+</body>
+</html>
