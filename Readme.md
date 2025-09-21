@@ -15,18 +15,18 @@ Sumário
 
 ## Arquivos dos Módulos do Curso
 
-* [Lógica de Programação](https://github.com)
-* [Operadores](https://github.com)
-* [Progamação Orientada a Objetos](https://github.com)
+* [Lógica de Programação](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/01%20-%20L%C3%B3gica-de-Programa%C3%A7%C3%A3o.md)
+* [Operadores](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/02%20-%20Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos.md)
+* [Progamação Orientada a Objetos](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/02%20-%20Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos.md)
 
 
 ## Exercícios
 
-* [Básicos](https://github.com)
-* [Oeradores](https://github.com)
-* [Condicionais 1](https://github.com)
-* [Condicionais 2](https://github.com)
-* [Repetição](https://github.com)
+* [Básicos](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/Exerc%C3%ADcios%20Basicos.md)
+* [Oeradores](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/exercicios-operadores.md)
+* [Condicionais 1](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/Exerc%C3%ADcios%20condicionais.md)
+* [Condicionais 2](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/exercicios-operadores.md)
+* [Repetição](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/exercicios-operadores.md)
 
 
 ## Links Úteis
