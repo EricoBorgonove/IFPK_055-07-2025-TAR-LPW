@@ -26,7 +26,7 @@ Sumário
 * [Oeradores](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/exercicios-operadores.md)
 * [Condicionais 1](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/Exerc%C3%ADcios%20condicionais.md)
 * [Condicionais 2](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/exercicios-operadores.md)
-* [Repetição](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/exercicios-operadores.md)
+* [Repetição](https://github.com/EricoBorgonove/IFPK_055-07-2025-TAR-LPW/blob/main/files/EXERCICIOS-REPETICAO-logica.md)
 
 
 ## Links Úteis
