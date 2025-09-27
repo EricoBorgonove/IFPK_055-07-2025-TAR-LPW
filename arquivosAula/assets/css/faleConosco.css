@@ -1,3 +1,20 @@
+body{
+    margin: 0;
+    font-size: 1.3rem;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(4, 4, 89);
+}
+.container-body{
+    background-color: rgb(4, 4, 89);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
 div{
     margin-top: 5px;
 }
@@ -19,5 +36,7 @@ button:hover{
 
 .container{
     width: 800px;
-    margin: 30px auto;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 15px;
 }
