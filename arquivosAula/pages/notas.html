@@ -48,18 +48,48 @@
       </div>
       <div class="mb-3">
         <label for="nota5" class="form-label">Nota 5</label>
-        <input type="number" class="form-control" id="nota5" placeholder="Digite a nota 5">
+        <input type="number" class="form-control" min="0" max="10" step="0.1" id="nota5" placeholder="Digite a nota 5">
       </div>
       <div class="d-grid">
-        <button type="button"  class="btn btn-primary">Calcular</button>
+        <button type="button" onclick="calcularMedia()" class="btn btn-primary">Calcular</button>
       </div>
     </form>
     <div id="resultado" class="resultado text-center">
-      <!-- Resultado será exibido aqui -->
+      
     </div>
   </div>
 
+
+    <script>
+
+        function calcularMedia(){
+            const nota1 = Number (document.getElementById("nota1").value)
+            const nota2 = Number (document.getElementById("nota2").value)
+            const nota3 = Number (document.getElementById("nota3").value)
+            const nota4 = Number (document.getElementById("nota4").value)
+            const nota5 = Number (document.getElementById("nota5").value)
+
+            console.log (nota1)
+
+            //if (nota1>=0 && nota1<=10 )
+
+            const media = (nota1+nota2+nota3+nota4+nota5)/5
+            let statusAprovacao = ""
+            if (media>=0 && media <5) statusAprovacao = "reprovado"
+            else if (media>=5 && media <7) statusAprovacao = "recuperação"
+            else if (media>=7 && media <=10) statusAprovacao = "aprovado"
+
+            document.getElementById("resultado").textContent = `A média é ${media.toFixed(2)} e o aluno está ${statusAprovacao}`
+
+
+
+
+        }
+    
+    </script>
   <!-- Bootstrap JS (opcional, apenas se for usar componentes JS do Bootstrap) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
 </body>
 </html>
