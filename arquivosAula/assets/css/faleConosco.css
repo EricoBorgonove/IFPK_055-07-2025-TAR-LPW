@@ -5,10 +5,10 @@ body{
 h1{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(4, 4, 89);
+    color: rgb(2, 2, 59);
 }
 .container-body{
-    background-color: rgb(4, 4, 89);
+    background-color: rgb(2, 2, 59);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -39,4 +39,14 @@ button:hover{
     padding: 10px 50px;
     background-color: white;
     border-radius: 15px;
+}
+.error{
+    color: red;
+}
+.errorInput{
+    color: red;
+    border-color: red;
+}
+.success{
+    color: green;
 }
