@@ -32,11 +32,6 @@
         <div>
           <label for="select-naci">Nacionalidade:</label>
           <select id="select-naci">
-            <option value="" selected></option>
-            <option value="BR">Brasil</option>
-            <option value="AR">Argentina</option>
-            <option value="IN">Índia</option>
-            <option value="UA">Ucrânia</option>
           </select>
 
           <label for="select-natu" id="label-natu" hidden>Naturalidade:</label>
@@ -68,10 +63,31 @@
         <input type="checkbox" name="musicas"> MPB
         <input type="checkbox" name="musicas" disabled> Funk
       </fieldset>
-    </div>
+    
+      <fieldset>
+        <legend>Endereço</legend>
+        <label for="input-cep">CEP: </label>
+        <input type="text" name="input-cep" id="cep">
+        <button id="btn-search">Pesquisar</button>
+        <hr>
+        <div>
+          <label for="input-logradouro">Logradouro: </label>
+          <input type="text" name="input-logradouro" id="logradouro">
+          <label for="input-bairro">Bairro: </label>
+          <input type="text" name="input-bairro" id="bairro">
+        </div>
+        <div>
+          <label for="input-cidade">Cidade: </label>
+          <input type="text" name="input-cidade" id="cidade">   
+          <label for="input-estado">Estado: </label>
+          <input type="text" name="input-estado" id="estado"> 
+        </div>
+                     
+      </fieldset>
+  </div>
   </div>
 
   <!-- IMPORTANTE: módulo -->
-  <script type="module" src="/assets/js/meus_js/faleConosco.js"></script>
+  <script type="module" src="../assets/js/meus_js/faleConosco.js"></script>
 </body>
 </html>

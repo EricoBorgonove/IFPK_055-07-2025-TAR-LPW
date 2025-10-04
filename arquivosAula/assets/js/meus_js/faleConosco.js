@@ -11,7 +11,7 @@ function verEstados() {
 
   if (selectNaci.value === 'BR') {
     selectNatu.hidden = false;
-    labelNatu.hiden = false;
+    labelNatu.hidden = false;
 
     // adiciona uma linha vazia no select antes de carregar os estados
     let option = document.createElement("option");
@@ -29,6 +29,26 @@ function verEstados() {
     selectNatu.hidden = true;
     labelNatu.hidden = true
   }
+}
+
+function verPaises(){
+  const selectNaci = document.getElementById("select-naci")
+
+  selectNaci.innerHTML = "";
+
+  // adiciona uma linha vazia no select antes de carregar os estados
+  let option = document.createElement("option");
+  option.textContent = "";
+  option.value = "";
+  selectNaci.appendChild(option);
+
+  paises.forEach((pais) => {
+    let option = document.createElement("option");
+    option.textContent = pais.nome;
+    option.value = pais.sigla;
+    selectNaci.appendChild(option);
+  });
+
 }
 
 function abrirOutros() {
@@ -84,9 +104,33 @@ function checkPassword() {
     errorPass.innerHTML = "";
   }
 }
+function validarCep(){
+  const cep = (document.getElementById("cep").value).trim();
+
+  if (cep.length != 8 || isNaN(cep)) {
+    alert("O Cep Digitado está incorreto");
+    document.getElementById("cep").classList.add("errorInput")
+  }else{
+    document.getElementById("cep").classList.remove("errorInput")
+    viaCep(cep);
+  }
+}
+
+function viaCep(cepValido){
+  fetch(`https://viacep.com.br/ws/${cepValido}/json/`)
+  .then(response => response.json())
+  .then(response => {
+    document.getElementById("logradouro").value = response.logradouro 
+    document.getElementById("bairro").value = response.bairro
+    document.getElementById("cidade").value = response.localidade
+    document.getElementById("estado").value = response.estado 
+  })
+}
 
 // Eventos
+verPaises()
 document.getElementById("select-naci").addEventListener("change", verEstados);
+document.getElementById("btn-search").addEventListener("click", validarCep);
 document.getElementById("btnVer").addEventListener("click", togglePass);
 document.querySelectorAll('input[name="genero"]').forEach(radio => {
   radio.addEventListener("change", abrirOutros);
